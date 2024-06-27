@@ -1,0 +1,21 @@
+:root {
+    --mainBg: #000;
+    --color: #fff;
+    --border: #5d5d5d76;
+    --basebg: #121212;
+    color-scheme: dark;
+}
+
+body {
+    background: var(--mainBg);
+    color: var(--color);
+}
+
+.brd {
+    border: 1px solid var(--border);
+}
+
+input {
+    width: 100%;
+    background: #000;
+}
